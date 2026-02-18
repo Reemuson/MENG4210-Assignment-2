@@ -61,10 +61,10 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE		0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">63a4f02</textvar>
-    <textvar name="GIT_HASH_SCH">63a4f02</textvar>
-    <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Assignment-1</textvar>
-    <textvar name="PROJECT_NAME">ASSIGNMENT 1</textvar>
+    <textvar name="GIT_HASH_PCB">1c5c101</textvar>
+    <textvar name="GIT_HASH_SCH">1c5c101</textvar>
+    <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Assignment-2</textvar>
+    <textvar name="PROJECT_NAME">ASSIGNMENT 2</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
 
 Fixed
@@ -101,7 +101,7 @@ Removed
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">1.0.0+ (Unreleased)</textvar>
+    <textvar name="REVISION">+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">REVISION HISTORY</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -142,12 +142,12 @@ Removed
     <textvar name="SHEET_NAME_7">5. COMPARATOR</textvar>
     <textvar name="SHEET_NAME_8">6. PASS ELEMENT</textvar>
     <textvar name="SHEET_NAME_9">9. MISCELLANEOUS</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">DRAFT</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Input-Protection.kicad_sch</source>
         <comment number="1" value=""/>
@@ -165,7 +165,7 @@ Removed
       <title_block>
         <title>ARCHITECTURE</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -183,7 +183,7 @@ Removed
       <title_block>
         <title>1. INTERCONNECTS</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Interconnects.kicad_sch</source>
         <comment number="1" value=""/>
@@ -201,7 +201,7 @@ Removed
       <title_block>
         <title>2. POLARITY PROTECTION</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Polarity Protection.kicad_sch</source>
         <comment number="1" value=""/>
@@ -219,7 +219,7 @@ Removed
       <title_block>
         <title>3. SENSING</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Sensing.kicad_sch</source>
         <comment number="1" value=""/>
@@ -237,7 +237,7 @@ Removed
       <title_block>
         <title>4. POWER</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Power.kicad_sch</source>
         <comment number="1" value=""/>
@@ -255,7 +255,7 @@ Removed
       <title_block>
         <title>5. COMPARATOR</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Comparator.kicad_sch</source>
         <comment number="1" value=""/>
@@ -273,7 +273,7 @@ Removed
       <title_block>
         <title>6. PASS ELEMENT</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Pass Element.kicad_sch</source>
         <comment number="1" value=""/>
@@ -291,7 +291,7 @@ Removed
       <title_block>
         <title>9. MISCELLANEOUS</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Miscellaneous.kicad_sch</source>
         <comment number="1" value=""/>
@@ -309,7 +309,7 @@ Removed
       <title_block>
         <title>REVISION HISTORY</title>
         <company>RYAN DYNAMICS</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
