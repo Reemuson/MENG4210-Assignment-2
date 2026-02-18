@@ -557,14 +557,14 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: ASSIGNMENT 1
+  PROJECT_NAME: ASSIGNMENT 2
   BOARD_NAME: INPUT PROTECTION
 
   COMPANY: RYAN DYNAMICS
   DESIGNER: R. HICKS
 
   LOGO: 'Logos/logo-mark-colour.png'
-  GIT_URL: 'https://github.com/Reemuson/MENG4210-Assignment-1'
+  GIT_URL: 'https://github.com/Reemuson/MENG4210-Assignment-2'
 
   # Preflight ==================================================================
 
