@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MCU18P10Y-TP")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_MCU18P10Y-TP/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "AZV3002S-13")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LIB_AZV3002S-13/AZV3002S-13.pretty")(options "")(descr ""))
+)

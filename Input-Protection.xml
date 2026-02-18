@@ -1,0 +1,3774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/Input-Protection.kicad_sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 9.0.7+1</tool>
+    <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	DO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.
+
+2)	DO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.
+
+3)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY
+	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.
+
+4)	CONFORMAL COATING IS NOT REQUIRED.
+
+5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
+	WHEN VIEWED FROM THE TOP.</textvar>
+    <textvar name="BOARD_NAME">INPUT PROTECTION</textvar>
+    <textvar name="COMPANY">RYAN DYNAMICS</textvar>
+    <textvar name="DESIGNER">R. HICKS</textvar>
+    <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	FABRICATE PER IPC-6012A CLASS 2.
+
+2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH
+	"Edge_Cuts.GBR" SUFFIX.
+
+3)	SEE SEPARATE DRILL FILES WITH ".DRL" SUFFIX 
+	FOR HOLE LOCATIONS.
+
+4)	SURFACE FINISH: ENIG
+
+5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
+	BE LPI, COLOR GREEN.
+
+6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER 
+	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.
+
+7)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS 
+	AND Pb FREE FOR MANUFACTURING
+
+8)	PCB MATERIAL REQUIREMENTS:
+
+	A.	FLAMMABILITY RATING MUST MEET OR EXCEED 
+		UL94V-0 REQUIREMENTS.
+	B.	Tg 170 C OR EQUIVALENT.
+	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
+		HALOGEN FREE AND APPROVED BY RYAN DYNAMICS.
+
+9)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
+
+	BOARD SIZE			80.000 × 50.000 mm
+	BOARD THICKNESS		1.590 mm
+	TRACE WIDTH			0.200 mm
+	TRACE TO TRACE		-0.000 mm
+	MIN. HOLE (PTH)		0.250 mm
+	MIN. HOLE (NPTH)	N/A mm
+	ANNULAR RING		0.150 mm
+	COPPER TO HOLE		0.254 mm
+	COPPER TO EDGE		0.250 mm
+	HOLE TO HOLE		0.254 mm</textvar>
+    <textvar name="GIT_HASH_PCB">63a4f02</textvar>
+    <textvar name="GIT_HASH_SCH">63a4f02</textvar>
+    <textvar name="GIT_URL">https://github.com/Reemuson/MENG4210-Assignment-1</textvar>
+    <textvar name="PROJECT_NAME">ASSIGNMENT 1</textvar>
+    <textvar name="RELEASE_BODY_1.0.0">___________________________________
+
+Fixed
+
+-   Tidied up some routing issues
+
+___________________________________
+
+Added
+
+-   N/A
+
+___________________________________
+
+Changed
+
+-   Changed fiducials to be circular
+
+-   Changed info block
+
+___________________________________
+
+Removed
+
+-   N/A</textvar>
+    <textvar name="RELEASE_BODY_1.0.1"/>
+    <textvar name="RELEASE_BODY_1.0.2"/>
+    <textvar name="RELEASE_BODY_1.1.0">Version 1.1.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="RELEASE_DATE">18-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-18</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-02-11</textvar>
+    <textvar name="RELEASE_TITLE_1.0.1"/>
+    <textvar name="RELEASE_TITLE_1.0.2"/>
+    <textvar name="RELEASE_TITLE_1.1.0">Version 1.1.0 not found.</textvar>
+    <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="REVISION">1.0.0+ (Unreleased)</textvar>
+    <textvar name="SHEET_NAME_1">Cover Page</textvar>
+    <textvar name="SHEET_NAME_10">REVISION HISTORY</textvar>
+    <textvar name="SHEET_NAME_11">......................................</textvar>
+    <textvar name="SHEET_NAME_12">......................................</textvar>
+    <textvar name="SHEET_NAME_13">......................................</textvar>
+    <textvar name="SHEET_NAME_14">......................................</textvar>
+    <textvar name="SHEET_NAME_15">......................................</textvar>
+    <textvar name="SHEET_NAME_16">......................................</textvar>
+    <textvar name="SHEET_NAME_17">......................................</textvar>
+    <textvar name="SHEET_NAME_18">......................................</textvar>
+    <textvar name="SHEET_NAME_19">......................................</textvar>
+    <textvar name="SHEET_NAME_2">ARCHITECTURE</textvar>
+    <textvar name="SHEET_NAME_20">......................................</textvar>
+    <textvar name="SHEET_NAME_21">......................................</textvar>
+    <textvar name="SHEET_NAME_22">......................................</textvar>
+    <textvar name="SHEET_NAME_23">......................................</textvar>
+    <textvar name="SHEET_NAME_24">......................................</textvar>
+    <textvar name="SHEET_NAME_25">......................................</textvar>
+    <textvar name="SHEET_NAME_26">......................................</textvar>
+    <textvar name="SHEET_NAME_27">......................................</textvar>
+    <textvar name="SHEET_NAME_28">......................................</textvar>
+    <textvar name="SHEET_NAME_29">......................................</textvar>
+    <textvar name="SHEET_NAME_3">1. INTERCONNECTS</textvar>
+    <textvar name="SHEET_NAME_30">......................................</textvar>
+    <textvar name="SHEET_NAME_31">......................................</textvar>
+    <textvar name="SHEET_NAME_32">......................................</textvar>
+    <textvar name="SHEET_NAME_33">......................................</textvar>
+    <textvar name="SHEET_NAME_34">......................................</textvar>
+    <textvar name="SHEET_NAME_35">......................................</textvar>
+    <textvar name="SHEET_NAME_36">......................................</textvar>
+    <textvar name="SHEET_NAME_37">......................................</textvar>
+    <textvar name="SHEET_NAME_38">......................................</textvar>
+    <textvar name="SHEET_NAME_39">......................................</textvar>
+    <textvar name="SHEET_NAME_4">2. POLARITY PROTECTION</textvar>
+    <textvar name="SHEET_NAME_40">......................................</textvar>
+    <textvar name="SHEET_NAME_5">3. SENSING</textvar>
+    <textvar name="SHEET_NAME_6">4. POWER</textvar>
+    <textvar name="SHEET_NAME_7">5. COMPARATOR</textvar>
+    <textvar name="SHEET_NAME_8">6. PASS ELEMENT</textvar>
+    <textvar name="SHEET_NAME_9">9. MISCELLANEOUS</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>RYAN DYNAMICS</company>
+        <rev>1.0.0+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Input-Protection.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ARCHITECTURE/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/">
+      <title_block>
+        <title>ARCHITECTURE</title>
+        <company>RYAN DYNAMICS</company>
+        <rev>1.0.0+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Project Architecture.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/ARCHITECTURE/1. INTERCONNECTS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/32cee8b0-6a3f-4d4b-95ab-f37a093db9e1/">
+      <title_block>
+        <title>1. INTERCONNECTS</title>
+        <company>RYAN DYNAMICS</company>
+        <rev>1.0.0+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Interconnects.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/ARCHITECTURE/2. POLARITY PROTECTION/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/cd66c87a-9b31-43d3-8cad-51547ddb89e3/">
+      <title_block>
+        <title>2. POLARITY PROTECTION</title>
+        <company>RYAN DYNAMICS</company>
+        <rev>1.0.0+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Polarity Protection.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/ARCHITECTURE/3. SENSING/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7/">
+      <title_block>
+        <title>3. SENSING</title>
+        <company>RYAN DYNAMICS</company>
+        <rev>1.0.0+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Sensing.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/">
+      <title_block>
+        <title>4. POWER</title>
+        <company>RYAN DYNAMICS</company>
+        <rev>1.0.0+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/">
+      <title_block>
+        <title>5. COMPARATOR</title>
+        <company>RYAN DYNAMICS</company>
+        <rev>1.0.0+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Comparator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/ARCHITECTURE/6. PASS ELEMENT/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/36cd8cc6-947f-4fd5-9d23-9f2b4bebe773/">
+      <title_block>
+        <title>6. PASS ELEMENT</title>
+        <company>RYAN DYNAMICS</company>
+        <rev>1.0.0+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Pass Element.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/ARCHITECTURE/9. MISCELLANEOUS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/5ae0d288-e475-479b-8bbb-cfc6b6e51123/">
+      <title_block>
+        <title>9. MISCELLANEOUS</title>
+        <company>RYAN DYNAMICS</company>
+        <rev>1.0.0+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Miscellaneous.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/REVISION HISTORY/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+      <title_block>
+        <title>REVISION HISTORY</title>
+        <company>RYAN DYNAMICS</company>
+        <rev>1.0.0+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Revision History.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J101">
+      <value>KLDX-0202-B</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal</footprint>
+      <datasheet>https://www.kycon.com/Catalog_PDF/KLDX_0202.pdf</datasheet>
+      <description>CONN PWR JACK 2.5X5.5MM SOLDER</description>
+      <fields>
+        <field name="Manufacturer">Kycon Inc</field>
+        <field name="MPN">KLDX-0202-B</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal</field>
+        <field name="Datasheet">https://www.kycon.com/Catalog_PDF/KLDX_0202.pdf</field>
+        <field name="Description">CONN PWR JACK 2.5X5.5MM SOLDER</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Manufacturer" value="Kycon Inc"/>
+      <property name="MPN" value="KLDX-0202-B"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="1. INTERCONNECTS"/>
+      <property name="Sheetfile" value="Interconnects.kicad_sch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <property name="ki_fp_filters" value="BarrelJack*"/>
+      <sheetpath names="/ARCHITECTURE/1. INTERCONNECTS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/32cee8b0-6a3f-4d4b-95ab-f37a093db9e1/"/>
+      <tstamps>34109aaf-8311-442f-8d7e-b877832d3c27</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>EBWA-02-B</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/204240/ebwa-xx-b-data-sheet.pdf</datasheet>
+      <description>EURO BLOCK 2P</description>
+      <fields>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="MPN">EBWA-02-B</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal</field>
+        <field name="Datasheet">https://app.adam-tech.com/products/download/data_sheet/204240/ebwa-xx-b-data-sheet.pdf</field>
+        <field name="Description">EURO BLOCK 2P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Adam Tech"/>
+      <property name="MPN" value="EBWA-02-B"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="1. INTERCONNECTS"/>
+      <property name="Sheetfile" value="Interconnects.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/ARCHITECTURE/1. INTERCONNECTS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/32cee8b0-6a3f-4d4b-95ab-f37a093db9e1/"/>
+      <tstamps>04199b65-4a5e-4467-902d-38815987399d</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>EBWA-02-B</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/204240/ebwa-xx-b-data-sheet.pdf</datasheet>
+      <description>EURO BLOCK 2P</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="MPN">EBWA-02-B</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal</field>
+        <field name="Datasheet">https://app.adam-tech.com/products/download/data_sheet/204240/ebwa-xx-b-data-sheet.pdf</field>
+        <field name="Description">EURO BLOCK 2P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer" value="Adam Tech"/>
+      <property name="MPN" value="EBWA-02-B"/>
+      <property name="Sheetname" value="1. INTERCONNECTS"/>
+      <property name="Sheetfile" value="Interconnects.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/ARCHITECTURE/1. INTERCONNECTS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/32cee8b0-6a3f-4d4b-95ab-f37a093db9e1/"/>
+      <tstamps>7ef44412-9433-4e64-a609-467981b213c0</tstamps>
+    </comp>
+    <comp ref="J104">
+      <value>KLDX-0202-B</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal</footprint>
+      <datasheet>https://www.kycon.com/Catalog_PDF/KLDX_0202.pdf</datasheet>
+      <description>CONN PWR JACK 2.5X5.5MM SOLDER</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer">Kycon Inc</field>
+        <field name="MPN">KLDX-0202-B</field>
+        <field name="Footprint">Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal</field>
+        <field name="Datasheet">https://www.kycon.com/Catalog_PDF/KLDX_0202.pdf</field>
+        <field name="Description">CONN PWR JACK 2.5X5.5MM SOLDER</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer" value="Kycon Inc"/>
+      <property name="MPN" value="KLDX-0202-B"/>
+      <property name="Sheetname" value="1. INTERCONNECTS"/>
+      <property name="Sheetfile" value="Interconnects.kicad_sch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <property name="ki_fp_filters" value="BarrelJack*"/>
+      <sheetpath names="/ARCHITECTURE/1. INTERCONNECTS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/32cee8b0-6a3f-4d4b-95ab-f37a093db9e1/"/>
+      <tstamps>bf0d287d-b606-430c-a849-118e1da28e4d</tstamps>
+    </comp>
+    <comp ref="TP101">
+      <value>GND</value>
+      <footprint>RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="1. INTERCONNECTS"/>
+      <property name="Sheetfile" value="Interconnects.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/1. INTERCONNECTS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/32cee8b0-6a3f-4d4b-95ab-f37a093db9e1/"/>
+      <tstamps>b42db4eb-0dc5-40a6-95f1-9e8f1fb719d4</tstamps>
+    </comp>
+    <comp ref="TP102">
+      <value>VIN</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="1. INTERCONNECTS"/>
+      <property name="Sheetfile" value="Interconnects.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/1. INTERCONNECTS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/32cee8b0-6a3f-4d4b-95ab-f37a093db9e1/"/>
+      <tstamps>77579937-73ab-4095-8d3f-949d30195c20</tstamps>
+    </comp>
+    <comp ref="TP103">
+      <value>VOUT</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="1. INTERCONNECTS"/>
+      <property name="Sheetfile" value="Interconnects.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/1. INTERCONNECTS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/32cee8b0-6a3f-4d4b-95ab-f37a093db9e1/"/>
+      <tstamps>c4eebef5-c912-4ff3-9192-7560496ae7c4</tstamps>
+    </comp>
+    <comp ref="TP104">
+      <value>GND</value>
+      <footprint>RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="1. INTERCONNECTS"/>
+      <property name="Sheetfile" value="Interconnects.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/1. INTERCONNECTS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/32cee8b0-6a3f-4d4b-95ab-f37a093db9e1/"/>
+      <tstamps>021d5491-8189-4645-82e2-ab90c2de86ab</tstamps>
+    </comp>
+    <comp ref="D201">
+      <value>D3Z10BF-7</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/D3ZxVxBF.pdf</datasheet>
+      <description>DIODE ZENER 10V 400MW SOD323F</description>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">D3Z10BF-7</field>
+        <field name="Notes">VZ = 10 V, suitable for input over-voltage clamping</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Diode_SMD:D_SOD-323_HandSoldering</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/D3ZxVxBF.pdf</field>
+        <field name="Description">DIODE ZENER 10V 400MW SOD323F</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="D3Z10BF-7"/>
+      <property name="Notes" value="VZ = 10 V, suitable for input over-voltage clamping"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="2. POLARITY PROTECTION"/>
+      <property name="Sheetfile" value="Polarity Protection.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/ARCHITECTURE/2. POLARITY PROTECTION/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/cd66c87a-9b31-43d3-8cad-51547ddb89e3/"/>
+      <tstamps>6a882ced-365e-4772-9a4d-83ea26b3763f</tstamps>
+    </comp>
+    <comp ref="Q201">
+      <value>MCU18P10Y-TP</value>
+      <footprint>MCU18P10Y-TP:DPAK_MCC</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf</datasheet>
+      <description>MOSFET P-CH 100V 18A DPAK</description>
+      <fields>
+        <field name="Manufacturer">MCC (Micro Commercial Components)</field>
+        <field name="MPN">MCU18P10Y-TP</field>
+        <field name="Notes">VDS &gt; 100 V, ID &gt; 2 A, P-channel device suitable for high-side switching</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">MCU18P10Y-TP:DPAK_MCC</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf</field>
+        <field name="Description">MOSFET P-CH 100V 18A DPAK</field>
+      </fields>
+      <libsource lib="MCU18P10Y-TP" part="MCU18P10Y-TP" description=""/>
+      <property name="Manufacturer" value="MCC (Micro Commercial Components)"/>
+      <property name="MPN" value="MCU18P10Y-TP"/>
+      <property name="Notes" value="VDS &gt; 100 V, ID &gt; 2 A, P-channel device suitable for high-side switching"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="2. POLARITY PROTECTION"/>
+      <property name="Sheetfile" value="Polarity Protection.kicad_sch"/>
+      <property name="ki_keywords" value="MCU18P10Y-TP"/>
+      <property name="ki_fp_filters" value="DPAK_MCC DPAK_MCC-M DPAK_MCC-L"/>
+      <sheetpath names="/ARCHITECTURE/2. POLARITY PROTECTION/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/cd66c87a-9b31-43d3-8cad-51547ddb89e3/"/>
+      <tstamps>d1546e2a-14ce-420a-b6cc-9dfca1249087</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 100K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 100K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="2. POLARITY PROTECTION"/>
+      <property name="Sheetfile" value="Polarity Protection.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/2. POLARITY PROTECTION/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/cd66c87a-9b31-43d3-8cad-51547ddb89e3/"/>
+      <tstamps>d7a6ba0c-057a-40b3-a2bc-7fb2d822c5e8</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 100K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 100K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="2. POLARITY PROTECTION"/>
+      <property name="Sheetfile" value="Polarity Protection.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/2. POLARITY PROTECTION/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/cd66c87a-9b31-43d3-8cad-51547ddb89e3/"/>
+      <tstamps>6cbd110e-52ac-44f8-bbb3-ebfb429eb26d</tstamps>
+    </comp>
+    <comp ref="TP201">
+      <value>VPROT</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="2. POLARITY PROTECTION"/>
+      <property name="Sheetfile" value="Polarity Protection.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/2. POLARITY PROTECTION/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/cd66c87a-9b31-43d3-8cad-51547ddb89e3/"/>
+      <tstamps>db2ebd1e-ec48-44fc-8818-32c8119abc93</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>100m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.ohmite.com/assets/images/res-kdv.pdf</datasheet>
+      <description>RES 0.1 OHM 1% 1/2W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Ohmite</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Notes">Current sense shunt, sets OCP trip (~1 A). Ideally should be &lt;100m</field>
+        <field name="MPN">KDV12FR100ET</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.ohmite.com/assets/images/res-kdv.pdf</field>
+        <field name="Description">RES 0.1 OHM 1% 1/2W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Ohmite"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Notes" value="Current sense shunt, sets OCP trip (~1 A). Ideally should be &lt;100m"/>
+      <property name="MPN" value="KDV12FR100ET"/>
+      <property name="Sheetname" value="3. SENSING"/>
+      <property name="Sheetfile" value="Sensing.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/3. SENSING/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7/"/>
+      <tstamps>c6164abb-3fe8-457d-bec0-2868eb618f62</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>39.2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 39.2K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 39.2K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="3. SENSING"/>
+      <property name="Sheetfile" value="Sensing.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/3. SENSING/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7/"/>
+      <tstamps>8fde494d-9ebe-4621-a28c-37db431a0df7</tstamps>
+    </comp>
+    <comp ref="R303">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 10K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 10K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="3. SENSING"/>
+      <property name="Sheetfile" value="Sensing.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/3. SENSING/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7/"/>
+      <tstamps>85f9ac57-2530-486a-b378-356ca7d61772</tstamps>
+    </comp>
+    <comp ref="R304">
+      <value>56.2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 56.2K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 56.2K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="3. SENSING"/>
+      <property name="Sheetfile" value="Sensing.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/3. SENSING/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7/"/>
+      <tstamps>7864d761-cc0a-48c7-ace6-787944f14363</tstamps>
+    </comp>
+    <comp ref="R305">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 10K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 10K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="3. SENSING"/>
+      <property name="Sheetfile" value="Sensing.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/3. SENSING/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7/"/>
+      <tstamps>fc5e87da-79fb-4b01-9e76-65dcb4179f51</tstamps>
+    </comp>
+    <comp ref="TP301">
+      <value>GND</value>
+      <footprint>RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="3. SENSING"/>
+      <property name="Sheetfile" value="Sensing.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/3. SENSING/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7/"/>
+      <tstamps>c3cff1c0-80eb-4748-b11a-3184baca2c05</tstamps>
+    </comp>
+    <comp ref="TP302">
+      <value>VSENSE_12V</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="3. SENSING"/>
+      <property name="Sheetfile" value="Sensing.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/3. SENSING/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7/"/>
+      <tstamps>8601a1ff-ec07-4012-aa26-883e53d7b554</tstamps>
+    </comp>
+    <comp ref="TP303">
+      <value>VSENSE_17V</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="3. SENSING"/>
+      <property name="Sheetfile" value="Sensing.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/3. SENSING/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/eec1945a-e0b9-4d73-886a-34bdad2482c7/"/>
+      <tstamps>46c251d9-3440-40f8-8342-8a34715442a0</tstamps>
+    </comp>
+    <comp ref="C401">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 0.01UF 50V X7R 0603</description>
+      <fields>
+        <field name="Manufacturer">TPK</field>
+        <field name="MPN">C1608X7R1H103KT</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage_Rating">50V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 0.01UF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="MPN" value="C1608X7R1H103KT"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage_Rating" value="50V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="4. POWER"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/"/>
+      <tstamps>d2a1addc-7ea4-47e2-9bc6-86c57d29152e</tstamps>
+    </comp>
+    <comp ref="C402">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 1UF 50V X7R 0603</description>
+      <fields>
+        <field name="Manufacturer">TPK</field>
+        <field name="MPN">C1608X5R0J105KT</field>
+        <field name="Dielectric">X5R</field>
+        <field name="Voltage_Rating">6.3V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 1UF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="MPN" value="C1608X5R0J105KT"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Voltage_Rating" value="6.3V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="4. POWER"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/"/>
+      <tstamps>a5fd4bad-27f7-435d-95a7-f64167773e2a</tstamps>
+    </comp>
+    <comp ref="C403">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 0.1UF 16V X7R 0603</description>
+      <fields>
+        <field name="Manufacturer">TPK</field>
+        <field name="MPN">C1608X7R1C104KT</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage_Rating">16V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 0.1UF 16V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="MPN" value="C1608X7R1C104KT"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage_Rating" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="4. POWER"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/"/>
+      <tstamps>a3a96f47-e1c8-40c9-a262-a92025fbf69b</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 100K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 100K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="4. POWER"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/"/>
+      <tstamps>06bb017b-7082-43f7-9867-d27e8ecfa741</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 100K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 100K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="4. POWER"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/"/>
+      <tstamps>792476a8-701b-4a77-8a1c-5619d4971cf8</tstamps>
+    </comp>
+    <comp ref="R403">
+      <value>3.32k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 3.32K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 3.32K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="4. POWER"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/"/>
+      <tstamps>c6c593f3-7402-4879-83bc-5d68bffcc79c</tstamps>
+    </comp>
+    <comp ref="TP401">
+      <value>VREF_2V5</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="4. POWER"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/"/>
+      <tstamps>d1ff3e23-265b-48ba-a87f-ab4b36999fe9</tstamps>
+    </comp>
+    <comp ref="TP402">
+      <value>VCC_5V</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="4. POWER"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/"/>
+      <tstamps>f3957d70-02aa-40f4-8a45-23c01ed451e0</tstamps>
+    </comp>
+    <comp ref="U401">
+      <value>LM4040N-5.0</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</datasheet>
+      <description>IC VREF SHUNT 0.5% SOT23-3</description>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">LM4040CIM3-5.0/NOPB</field>
+        <field name="Notes">VREF = 5.0 V, low temperature coefficient, suitable for precision threshold VREF</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</field>
+        <field name="Description">IC VREF SHUNT 0.5% SOT23-3</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="LM4040DBZ-5" description="5.000V Precision Micropower Shunt Voltage Reference, SOT-23"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="LM4040CIM3-5.0/NOPB"/>
+      <property name="Notes" value="VREF = 5.0 V, low temperature coefficient, suitable for precision threshold VREF"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="4. POWER"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="diode device voltage reference shunt"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/ARCHITECTURE/4. POWER/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/3dfcbf60-23d2-437c-a8ed-a098d307e8cb/"/>
+      <tstamps>2f9c337d-b594-42a7-aa9e-fec804fd5c3e</tstamps>
+    </comp>
+    <comp ref="C501">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 0.1UF 16V X7R 0603</description>
+      <fields>
+        <field name="Manufacturer">TPK</field>
+        <field name="MPN">C1608X7R1C104KT</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage_Rating">16V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 0.1UF 16V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="MPN" value="C1608X7R1C104KT"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage_Rating" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>a4f9c4d0-e705-4dd6-ac24-35d6ee960214</tstamps>
+    </comp>
+    <comp ref="C502">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 0.1UF 16V X7R 0603</description>
+      <fields>
+        <field name="Manufacturer">TPK</field>
+        <field name="MPN">C1608X7R1C104KT</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage_Rating">16V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 0.1UF 16V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="MPN" value="C1608X7R1C104KT"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage_Rating" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>5d45c6c9-6d01-4f0b-abef-335503f65600</tstamps>
+    </comp>
+    <comp ref="C503">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 0.01UF 50V X7R 0603</description>
+      <fields>
+        <field name="Manufacturer">TPK</field>
+        <field name="MPN">C1608X7R1H103KT</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage_Rating">50V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 0.01UF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="MPN" value="C1608X7R1H103KT"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage_Rating" value="50V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>5ba4f203-181b-407e-899b-dcf4f90d934c</tstamps>
+    </comp>
+    <comp ref="C504">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 0.01UF 50V X7R 0603</description>
+      <fields>
+        <field name="Manufacturer">TPK</field>
+        <field name="MPN">C1608X7R1H103KT</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage_Rating">50V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 0.01UF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="MPN" value="C1608X7R1H103KT"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage_Rating" value="50V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>c6e21772-7893-4858-ab48-5a970a43312a</tstamps>
+    </comp>
+    <comp ref="C505">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 0.01UF 50V X7R 0603</description>
+      <fields>
+        <field name="Manufacturer">TPK</field>
+        <field name="MPN">C1608X7R1H103KT</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage_Rating">50V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 0.01UF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="MPN" value="C1608X7R1H103KT"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage_Rating" value="50V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>286c6d7a-e3cc-4f72-a525-e79044edc27f</tstamps>
+    </comp>
+    <comp ref="C506">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</datasheet>
+      <description>CAP CER 1UF 50V X7R 0603</description>
+      <fields>
+        <field name="Manufacturer">TPK</field>
+        <field name="MPN">C1608X5R0J105KT</field>
+        <field name="Dielectric">X5R</field>
+        <field name="Voltage_Rating">6.3V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf</field>
+        <field name="Description">CAP CER 1UF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="TPK"/>
+      <property name="MPN" value="C1608X5R0J105KT"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Voltage_Rating" value="6.3V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>3475f5eb-3510-417b-bebd-c03b0b484aed</tstamps>
+    </comp>
+    <comp ref="D501">
+      <value>1N4148WS</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://diotec.com/request/datasheet/1n4148ws.pdf</datasheet>
+      <description>DIODE STANDARD 75V 150MA SOD323F</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Manufacturer">Diotec Semiconductor</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Notes">Fast switching diode, low leakage, used for diode-AND logic gating of control signals</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://diotec.com/request/datasheet/1n4148ws.pdf</field>
+        <field name="Description">DIODE STANDARD 75V 150MA SOD323F</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Manufacturer" value="Diotec Semiconductor"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Notes" value="Fast switching diode, low leakage, used for diode-AND logic gating of control signals"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>4960ade3-d1a2-46e7-8873-dd92ddabe91a</tstamps>
+    </comp>
+    <comp ref="D502">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf</datasheet>
+      <description>LED RED CLEAR SMD</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="MPN">LTST-C170KRKT</field>
+        <field name="Notes">Any low power red 0805 LED</field>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf</field>
+        <field name="Description">LED RED CLEAR SMD</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Manufacturer" value="Lite-On Inc."/>
+      <property name="MPN" value="LTST-C170KRKT"/>
+      <property name="Notes" value="Any low power red 0805 LED"/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>0e13b48a-c2e5-4b04-8ab3-f44526ba403a</tstamps>
+    </comp>
+    <comp ref="JP501">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>70c9040f-c87e-46fe-9931-ed211f69803a</tstamps>
+    </comp>
+    <comp ref="JP502">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>47ae0c2a-f138-4230-b3ba-85eddaa1c2cd</tstamps>
+    </comp>
+    <comp ref="JP503">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>951c939e-b76c-466c-bf50-4dcf3b14d76b</tstamps>
+    </comp>
+    <comp ref="R501">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 1K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 1K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>1f4c1d07-6ca3-42e3-a23d-4ccfac1fd68d</tstamps>
+    </comp>
+    <comp ref="R502">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 1K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 1K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>e338a72d-1c6b-4d00-a67a-06d24d30dfad</tstamps>
+    </comp>
+    <comp ref="R503">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 1M OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 1M OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>f262e68d-78f9-4fe9-8d9a-e8d6a80cccd7</tstamps>
+    </comp>
+    <comp ref="R504">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 1M OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 1M OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>6d3cb754-110f-4692-aba8-5cc2502a7335</tstamps>
+    </comp>
+    <comp ref="R505">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 1K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 1K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>4ec01dc8-92bf-4e8c-bb01-2b9c5d4611f0</tstamps>
+    </comp>
+    <comp ref="R506">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 100K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 100K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>5511a7f9-e079-45fc-a879-858c7c7a1f1e</tstamps>
+    </comp>
+    <comp ref="R507">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 1M OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 1M OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>0da30173-0dea-46ba-bf59-ebecbae5917c</tstamps>
+    </comp>
+    <comp ref="R508">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 10K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 10K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>31c5d589-3c46-4977-9bf7-4e8bbb7476cd</tstamps>
+    </comp>
+    <comp ref="R509">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 10K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 10K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>48cc4ae3-db5e-4c79-9bec-de78434babb8</tstamps>
+    </comp>
+    <comp ref="R510">
+      <value>3.32k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 3.32K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 3.32K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>c9bd2c71-f5a6-4815-9d00-189a3f2d7bc4</tstamps>
+    </comp>
+    <comp ref="R511">
+      <value>22.1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 22.1K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 22.1K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>7fadfadf-9297-4a9c-91b5-7bd67a43008f</tstamps>
+    </comp>
+    <comp ref="TP501">
+      <value>~{12V_FAULT}</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>2b198f52-45e9-49de-99b8-ec936c7a3e2e</tstamps>
+    </comp>
+    <comp ref="TP502">
+      <value>~{OC_DETECT}</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>7000f8af-c3e1-44c9-b272-ff2cdfbf74c7</tstamps>
+    </comp>
+    <comp ref="TP503">
+      <value>~{17V_FAULT}</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>793b93fa-a98c-4641-90b0-c733d93ee706</tstamps>
+    </comp>
+    <comp ref="TP504">
+      <value>~{OC_FAULT}</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>30c84fe6-ee94-4d20-9eab-88ad7138cfd6</tstamps>
+    </comp>
+    <comp ref="TP505">
+      <value>V_ISENSE</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>8e9e28dc-a341-40eb-a1bc-09dfd02a8589</tstamps>
+    </comp>
+    <comp ref="TP506">
+      <value>EN_OK</value>
+      <footprint>RD-Testpoints:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>2c93a368-feb9-4e91-a1a7-677ecd83b2ca</tstamps>
+    </comp>
+    <comp ref="TP507">
+      <value>GND</value>
+      <footprint>RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Testpoints:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>09e7a307-fb1b-4c7e-be56-02854b0bc174</tstamps>
+    </comp>
+    <comp ref="U501">
+      <value>LM393</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm393.pdf</datasheet>
+      <description>IC COMPARATOR 2 GEN PUR 8SOIC</description>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">LM393ADT</field>
+        <field name="Notes">Open-collector output required, &gt;5V tolerant inputs.</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm393.pdf</field>
+        <field name="Description">IC COMPARATOR 2 GEN PUR 8SOIC</field>
+      </fields>
+      <libsource lib="Comparator" part="LM393" description="Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="LM393ADT"/>
+      <property name="Notes" value="Open-collector output required, &gt;5V tolerant inputs."/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="cmp open collector"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>d3e0413f-1e3d-4b4b-b7d1-f841019e251d 78823f07-8442-4888-9124-48c97d5d3db3 26a975ea-a7da-4d3c-bb9b-1e8d22120e1f</tstamps>
+    </comp>
+    <comp ref="U502">
+      <value>LM393</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm393.pdf</datasheet>
+      <description>IC COMPARATOR 2 GEN PUR 8SOIC</description>
+      <fields>
+        <field name="MPN">LM393ADT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Notes">Open-collector output required, &gt;5V tolerant inputs.</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm393.pdf</field>
+        <field name="Description">IC COMPARATOR 2 GEN PUR 8SOIC</field>
+      </fields>
+      <libsource lib="Comparator" part="LM393" description="Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"/>
+      <property name="MPN" value="LM393ADT"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Notes" value="Open-collector output required, &gt;5V tolerant inputs."/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="cmp open collector"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>c6af7134-ae6b-40e5-bb83-707f76994275 b172d113-5a33-418c-a35e-a26d309ac19b 53681629-30d0-4134-8ab7-04de5650cb61</tstamps>
+    </comp>
+    <comp ref="U503">
+      <value>INA169NA/3K</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina169.pdf</datasheet>
+      <description>IC CURRENT MONITOR 0.5% SOT23-5</description>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">INA169NA/3K</field>
+        <field name="Notes">Transconductance of 1mA/V</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina169.pdf</field>
+        <field name="Description">IC CURRENT MONITOR 0.5% SOT23-5</field>
+      </fields>
+      <libsource lib="Amplifier_Current" part="INA169" description="High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="INA169NA/3K"/>
+      <property name="Notes" value="Transconductance of 1mA/V"/>
+      <property name="Sheetname" value="5. COMPARATOR"/>
+      <property name="Sheetfile" value="Comparator.kicad_sch"/>
+      <property name="ki_keywords" value="current sense shunt monitor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/ARCHITECTURE/5. COMPARATOR/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/b446a969-f26b-4ca3-b073-98813f74e85a/"/>
+      <tstamps>4e05c8dc-6d0e-4c13-887e-591ab6ff6066</tstamps>
+    </comp>
+    <comp ref="D601">
+      <value>D3Z10BF-7</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/D3ZxVxBF.pdf</datasheet>
+      <description>DIODE ZENER 10V 400MW SOD323F</description>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">D3Z10BF-7</field>
+        <field name="Notes">VZ = 10 V, suitable for input over-voltage clamping</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Diode_SMD:D_SOD-323_HandSoldering</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/D3ZxVxBF.pdf</field>
+        <field name="Description">DIODE ZENER 10V 400MW SOD323F</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="D3Z10BF-7"/>
+      <property name="Notes" value="VZ = 10 V, suitable for input over-voltage clamping"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="6. PASS ELEMENT"/>
+      <property name="Sheetfile" value="Pass Element.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/ARCHITECTURE/6. PASS ELEMENT/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/36cd8cc6-947f-4fd5-9d23-9f2b4bebe773/"/>
+      <tstamps>c025b971-26d2-4420-811c-f683500d1c62</tstamps>
+    </comp>
+    <comp ref="Q601">
+      <value>BC846</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC846X-Q_SER.pdf</datasheet>
+      <description>TRANS NPN 65V 0.1A TO-236AB</description>
+      <fields>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="MPN">BC846</field>
+        <field name="Notes">VCEO &gt; 65 V for 50 V rail, IC small, used as gate pull-down switch</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BC846X-Q_SER.pdf</field>
+        <field name="Description">TRANS NPN 65V 0.1A TO-236AB</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC846" description="0.1A Ic, 65V Vce, NPN Transistor, SOT-23"/>
+      <property name="Manufacturer" value="Nexperia USA Inc."/>
+      <property name="MPN" value="BC846"/>
+      <property name="Notes" value="VCEO &gt; 65 V for 50 V rail, IC small, used as gate pull-down switch"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="6. PASS ELEMENT"/>
+      <property name="Sheetfile" value="Pass Element.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/ARCHITECTURE/6. PASS ELEMENT/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/36cd8cc6-947f-4fd5-9d23-9f2b4bebe773/"/>
+      <tstamps>3e1cb2c4-4529-40d4-a5fd-82a5b70b9ceb</tstamps>
+    </comp>
+    <comp ref="Q602">
+      <value>MCU18P10Y-TP</value>
+      <footprint>MCU18P10Y-TP:DPAK_MCC</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf</datasheet>
+      <description>MOSFET P-CH 100V 18A DPAK</description>
+      <fields>
+        <field name="Manufacturer">MCC (Micro Commercial Components)</field>
+        <field name="MPN">MCU18P10Y-TP</field>
+        <field name="Notes">VDS &gt; 100 V, ID &gt; 2 A, P-channel device suitable for high-side switching</field>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">MCU18P10Y-TP:DPAK_MCC</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf</field>
+        <field name="Description">MOSFET P-CH 100V 18A DPAK</field>
+      </fields>
+      <libsource lib="MCU18P10Y-TP" part="MCU18P10Y-TP" description=""/>
+      <property name="Manufacturer" value="MCC (Micro Commercial Components)"/>
+      <property name="MPN" value="MCU18P10Y-TP"/>
+      <property name="Notes" value="VDS &gt; 100 V, ID &gt; 2 A, P-channel device suitable for high-side switching"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="6. PASS ELEMENT"/>
+      <property name="Sheetfile" value="Pass Element.kicad_sch"/>
+      <property name="ki_keywords" value="MCU18P10Y-TP"/>
+      <property name="ki_fp_filters" value="DPAK_MCC DPAK_MCC-M DPAK_MCC-L"/>
+      <sheetpath names="/ARCHITECTURE/6. PASS ELEMENT/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/36cd8cc6-947f-4fd5-9d23-9f2b4bebe773/"/>
+      <tstamps>6901a247-a88e-4f73-80c3-95d612e76b5d</tstamps>
+    </comp>
+    <comp ref="R601">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 10K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 10K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="6. PASS ELEMENT"/>
+      <property name="Sheetfile" value="Pass Element.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/6. PASS ELEMENT/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/36cd8cc6-947f-4fd5-9d23-9f2b4bebe773/"/>
+      <tstamps>6beb1c29-08ab-4ebe-a047-1134823c3759</tstamps>
+    </comp>
+    <comp ref="R602">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 100K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 100K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="6. PASS ELEMENT"/>
+      <property name="Sheetfile" value="Pass Element.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/6. PASS ELEMENT/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/36cd8cc6-947f-4fd5-9d23-9f2b4bebe773/"/>
+      <tstamps>725bfd4a-26d4-4edf-bf1d-55f595d23377</tstamps>
+    </comp>
+    <comp ref="R603">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 100K OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 100K OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="6. PASS ELEMENT"/>
+      <property name="Sheetfile" value="Pass Element.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/6. PASS ELEMENT/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/36cd8cc6-947f-4fd5-9d23-9f2b4bebe773/"/>
+      <tstamps>ce225bdc-9536-4982-982c-a5a9220a5edb</tstamps>
+    </comp>
+    <comp ref="R604">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</datasheet>
+      <description>RES 1M OHM 1% 1/4W 1206</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer">Analog Technologies</field>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf</field>
+        <field name="Description">RES 1M OHM 1% 1/4W 1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer" value="Analog Technologies"/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="6. PASS ELEMENT"/>
+      <property name="Sheetfile" value="Pass Element.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ARCHITECTURE/6. PASS ELEMENT/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/36cd8cc6-947f-4fd5-9d23-9f2b4bebe773/"/>
+      <tstamps>e5d2ffe8-b101-48f3-a8d1-f6f971f4b4c8</tstamps>
+    </comp>
+    <comp ref="FID901">
+      <value>FIDUCIAL</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="9. MISCELLANEOUS"/>
+      <property name="Sheetfile" value="Miscellaneous.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/ARCHITECTURE/9. MISCELLANEOUS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/5ae0d288-e475-479b-8bbb-cfc6b6e51123/"/>
+      <tstamps>5da9979e-621a-4861-82a4-9db544fc990d</tstamps>
+    </comp>
+    <comp ref="FID902">
+      <value>FIDUCIAL</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="9. MISCELLANEOUS"/>
+      <property name="Sheetfile" value="Miscellaneous.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/ARCHITECTURE/9. MISCELLANEOUS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/5ae0d288-e475-479b-8bbb-cfc6b6e51123/"/>
+      <tstamps>84a0f0cd-8876-4fd9-86ef-7cf7643f32d2</tstamps>
+    </comp>
+    <comp ref="FID903">
+      <value>FIDUCIAL</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="9. MISCELLANEOUS"/>
+      <property name="Sheetfile" value="Miscellaneous.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/ARCHITECTURE/9. MISCELLANEOUS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/5ae0d288-e475-479b-8bbb-cfc6b6e51123/"/>
+      <tstamps>c17ae12b-7b0c-4733-85a9-e6dcd9e22842</tstamps>
+    </comp>
+    <comp ref="H901">
+      <value>MOUNT_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="9. MISCELLANEOUS"/>
+      <property name="Sheetfile" value="Miscellaneous.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/ARCHITECTURE/9. MISCELLANEOUS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/5ae0d288-e475-479b-8bbb-cfc6b6e51123/"/>
+      <tstamps>ce91a7f2-bbce-4af7-ad08-7a90d463883e</tstamps>
+    </comp>
+    <comp ref="H902">
+      <value>MOUNT_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="9. MISCELLANEOUS"/>
+      <property name="Sheetfile" value="Miscellaneous.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/ARCHITECTURE/9. MISCELLANEOUS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/5ae0d288-e475-479b-8bbb-cfc6b6e51123/"/>
+      <tstamps>10cda48e-adc9-44ff-916e-5401391dcac9</tstamps>
+    </comp>
+    <comp ref="H903">
+      <value>MOUNT_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="9. MISCELLANEOUS"/>
+      <property name="Sheetfile" value="Miscellaneous.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/ARCHITECTURE/9. MISCELLANEOUS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/5ae0d288-e475-479b-8bbb-cfc6b6e51123/"/>
+      <tstamps>1ed94456-2293-48aa-872c-51f2180c6838</tstamps>
+    </comp>
+    <comp ref="H904">
+      <value>MOUNT_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="9. MISCELLANEOUS"/>
+      <property name="Sheetfile" value="Miscellaneous.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/ARCHITECTURE/9. MISCELLANEOUS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/5ae0d288-e475-479b-8bbb-cfc6b6e51123/"/>
+      <tstamps>55cf5afe-cd67-43bc-9858-2ad7353bab96</tstamps>
+    </comp>
+    <comp ref="ID901">
+      <value>BOARD_STACKUP_MARKER</value>
+      <footprint>RD-Symbols-Silkscreen:STACKUP_ID_2L_SML</footprint>
+      <description>PCB stackup layer identification marker (non-electrical)</description>
+      <fields>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Config"/>
+        <field name="Height"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Manufacturer_Name"/>
+        <field name="Manufacturer_Part_Number"/>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Footprint">RD-Symbols-Silkscreen:STACKUP_ID_2L_SML</field>
+        <field name="Datasheet"/>
+        <field name="Description">PCB stackup layer identification marker (non-electrical)</field>
+      </fields>
+      <libsource lib="Ryan-Dynamics" part="BOARD_STACKUP_MARKER" description="PCB stackup layer identification marker (non-electrical)"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Config" value=""/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value="9. MISCELLANEOUS"/>
+      <property name="Sheetfile" value="Miscellaneous.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="pcb stackup layer id marker fabrication"/>
+      <property name="ki_fp_filters" value="STACKUP_ID_*"/>
+      <sheetpath names="/ARCHITECTURE/9. MISCELLANEOUS/" tstamps="/179513e0-5d54-46f9-91b6-4a13d6971432/5ae0d288-e475-479b-8bbb-cfc6b6e51123/"/>
+      <tstamps>0ba8947d-9882-41c9-b287-a1bcd7c00991</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Current" part="INA169">
+      <description>High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina169.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA169</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina169.pdf</field>
+        <field name="Description">High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Comparator" part="LM393">
+      <description>Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm393.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOP*5.28x5.23mm*P1.27mm*</fp>
+        <fp>VSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM393</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm393.pdf</field>
+        <field name="Description">Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="open_collector"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="open_collector"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">DC Barrel Jack with an internal switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148WS">
+      <description>75V 0.15A Fast switching Diode, SOD-323</description>
+      <docs>https://www.vishay.com/docs/85751/1n4148ws.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148WS</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85751/1n4148ws.pdf</field>
+        <field name="Description">75V 0.15A Fast switching Diode, SOD-323</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU18P10Y-TP" part="MCU18P10Y-TP">
+      <docs>https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf</docs>
+      <footprints>
+        <fp>DPAK_MCC</fp>
+        <fp>DPAK_MCC-M</fp>
+        <fp>DPAK_MCC-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MCU18P10Y-TP</field>
+        <field name="Footprint">MCU18P10Y-TP:DPAK_MCC</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="LM4040DBZ-5">
+      <description>5.000V Precision Micropower Shunt Voltage Reference, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4040DBZ-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</field>
+        <field name="Description">5.000V Precision Micropower Shunt Voltage Reference, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Ryan-Dynamics" part="BOARD_STACKUP_MARKER">
+      <description>PCB stackup layer identification marker (non-electrical)</description>
+      <footprints>
+        <fp>STACKUP_ID_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">ID?</field>
+        <field name="Value">BOARD_STACKUP_MARKER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">PCB stackup layer identification marker (non-electrical)</field>
+      </fields>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC846">
+      <description>0.1A Ic, 65V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC846</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf</field>
+        <field name="Description">0.1A Ic, 65V Vce, NPN Transistor, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Current">
+      <uri>/usr/share/kicad/symbols//Amplifier_Current.kicad_sym</uri>
+    </library>
+    <library logical="Comparator">
+      <uri>/usr/share/kicad/symbols//Comparator.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="MCU18P10Y-TP">
+      <uri>/github/workspace/Libraries/ul_MCU18P10Y-TP/KiCADv6/2026-02-05_11-18-21.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ARCHITECTURE/1. INTERCONNECTS/VIN" class="Default">
+      <node ref="J101" pin="1" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q201" pin="2" pintype="passive"/>
+      <node ref="TP102" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/ARCHITECTURE/1. INTERCONNECTS/VOUT" class="Default">
+      <node ref="J103" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J104" pin="1" pintype="passive"/>
+      <node ref="Q602" pin="2" pintype="passive"/>
+      <node ref="R604" pin="1" pintype="passive"/>
+      <node ref="TP103" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/ARCHITECTURE/2. POLARITY PROTECTION/VPROT" class="Default">
+      <node ref="D201" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D601" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q201" pin="3" pintype="passive"/>
+      <node ref="Q602" pin="3" pintype="passive"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="R403" pin="2" pintype="passive"/>
+      <node ref="R603" pin="2" pintype="passive"/>
+      <node ref="TP201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U503" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="4" name="/ARCHITECTURE/3. SENSING/ISENSE_N" class="Default">
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="R304" pin="2" pintype="passive"/>
+      <node ref="U503" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="5" name="/ARCHITECTURE/3. SENSING/VSENSE_12V" class="Default">
+      <node ref="C503" pin="2" pintype="passive"/>
+      <node ref="R302" pin="1" pintype="passive"/>
+      <node ref="R303" pin="2" pintype="passive"/>
+      <node ref="R501" pin="2" pintype="passive"/>
+      <node ref="TP302" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/ARCHITECTURE/3. SENSING/VSENSE_17V" class="Default">
+      <node ref="C505" pin="1" pintype="passive"/>
+      <node ref="R304" pin="1" pintype="passive"/>
+      <node ref="R305" pin="2" pintype="passive"/>
+      <node ref="R505" pin="1" pintype="passive"/>
+      <node ref="TP303" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/ARCHITECTURE/5. COMPARATOR/EN_OK" class="Default">
+      <node ref="C506" pin="1" pintype="passive"/>
+      <node ref="D502" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="JP501" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP502" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP503" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R509" pin="1" pintype="passive"/>
+      <node ref="R601" pin="2" pintype="passive"/>
+      <node ref="TP506" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/ARCHITECTURE/5. COMPARATOR/LATCH_IN" class="Default">
+      <node ref="D501" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R506" pin="1" pintype="passive"/>
+      <node ref="R508" pin="1" pintype="passive"/>
+      <node ref="U502" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="9" name="/ARCHITECTURE/5. COMPARATOR/V_ISENSE" class="Default">
+      <node ref="C504" pin="1" pintype="passive"/>
+      <node ref="R502" pin="1" pintype="passive"/>
+      <node ref="R511" pin="2" pintype="passive"/>
+      <node ref="TP505" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U503" pin="1" pintype="output"/>
+    </net>
+    <net code="10" name="/ARCHITECTURE/5. COMPARATOR/~{12V_FAULT}" class="Default">
+      <node ref="JP501" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R503" pin="2" pintype="passive"/>
+      <node ref="TP501" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U501" pin="1" pintype="open_collector"/>
+    </net>
+    <net code="11" name="/ARCHITECTURE/5. COMPARATOR/~{17V_FAULT}" class="Default">
+      <node ref="JP502" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R507" pin="2" pintype="passive"/>
+      <node ref="TP503" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U501" pin="7" pintype="open_collector"/>
+    </net>
+    <net code="12" name="/ARCHITECTURE/5. COMPARATOR/~{OC_DETECT}" class="Default">
+      <node ref="D501" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R504" pin="2" pintype="passive"/>
+      <node ref="TP502" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U502" pin="1" pintype="open_collector"/>
+    </net>
+    <net code="13" name="/ARCHITECTURE/5. COMPARATOR/~{OC_FAULT}" class="Default">
+      <node ref="JP503" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R508" pin="2" pintype="passive"/>
+      <node ref="TP504" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U502" pin="7" pintype="open_collector"/>
+    </net>
+    <net code="14" name="GND" class="Default">
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C402" pin="2" pintype="passive"/>
+      <node ref="C403" pin="2" pintype="passive"/>
+      <node ref="C501" pin="2" pintype="passive"/>
+      <node ref="C502" pin="2" pintype="passive"/>
+      <node ref="C503" pin="1" pintype="passive"/>
+      <node ref="C504" pin="2" pintype="passive"/>
+      <node ref="C505" pin="2" pintype="passive"/>
+      <node ref="C506" pin="2" pintype="passive"/>
+      <node ref="H901" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H902" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H903" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H904" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J101" pin="2" pintype="passive"/>
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J104" pin="2" pintype="passive"/>
+      <node ref="Q601" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="R303" pin="1" pintype="passive"/>
+      <node ref="R305" pin="1" pintype="passive"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="R511" pin="1" pintype="passive"/>
+      <node ref="R602" pin="2" pintype="passive"/>
+      <node ref="R604" pin="2" pintype="passive"/>
+      <node ref="TP101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP104" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP301" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP507" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U401" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U501" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U502" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U503" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(D201-A)" class="Default">
+      <node ref="D201" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q201" pin="1" pintype="input"/>
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="R202" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D502-A)" class="Default">
+      <node ref="D502" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R510" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D601-A)" class="Default">
+      <node ref="D601" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q601" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q602" pin="1" pintype="input"/>
+      <node ref="R603" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q601-B)" class="Default">
+      <node ref="Q601" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R601" pin="1" pintype="passive"/>
+      <node ref="R602" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(U501A--)" class="Default">
+      <node ref="R501" pin="1" pintype="passive"/>
+      <node ref="R503" pin="1" pintype="passive"/>
+      <node ref="U501" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(U501B-+)" class="Default">
+      <node ref="R505" pin="2" pintype="passive"/>
+      <node ref="R507" pin="1" pintype="passive"/>
+      <node ref="U501" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(U502A-+)" class="Default">
+      <node ref="R502" pin="2" pintype="passive"/>
+      <node ref="R504" pin="1" pintype="passive"/>
+      <node ref="U502" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="22" name="VCC_5V" class="Default">
+      <node ref="C402" pin="1" pintype="passive"/>
+      <node ref="C403" pin="1" pintype="passive"/>
+      <node ref="C501" pin="1" pintype="passive"/>
+      <node ref="C502" pin="1" pintype="passive"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="R403" pin="1" pintype="passive"/>
+      <node ref="R506" pin="2" pintype="passive"/>
+      <node ref="R509" pin="2" pintype="passive"/>
+      <node ref="R510" pin="2" pintype="passive"/>
+      <node ref="TP402" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U401" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U501" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U502" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U503" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="23" name="VREF_2V5" class="Default">
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="TP401" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U501" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U501" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U502" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="U502" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="24" name="unconnected-(J101-Pad3)" class="Default">
+      <node ref="J101" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J104-Pad3)" class="Default">
+      <node ref="J104" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U401-NC-Pad3)" class="Default">
+      <node ref="U401" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
