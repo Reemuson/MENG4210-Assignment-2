@@ -29,7 +29,7 @@ outputs:
       - "@MAN_FIELD@"
       - "@MPN_FIELD@"
       - "Supplier"
-      - "Supplier Part Number"
+      - "SPN"
       # - "arrow#"
       # - "digikey#"
       # - "farnell#"

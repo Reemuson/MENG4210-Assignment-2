@@ -1612,12 +1612,13 @@
 		(uuid "dee96870-b977-4804-a805-318fe8afe5f2")
 	)
 	(sheet
-		(at 299.72 313.69)
+		(at 299.72 302.26)
 		(size 35.56 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1625,24 +1626,20 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "179513e0-5d54-46f9-91b6-4a13d6971432")
-		(property "Sheetname" "ARCHITECTURE"
-			(at 299.72 312.9784 0)
+		(uuid "4a88c524-9eec-4a53-b8de-957bc559206b")
+		(property "Sheetname" "SCHEMATIC"
+			(at 299.72 301.5484 0)
 			(effects
 				(font
-					(face "Times New Roman")
-					(size 1.905 1.905)
-					(bold yes)
-					(color 0 0 0 1)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Project Architecture.kicad_sch"
-			(at 300.99 314.96 0)
+		(property "Sheetfile" "Schematic.kicad_sch"
+			(at 299.72 307.9246 0)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left top)
@@ -1696,7 +1693,7 @@
 		(instances
 			(project "Input-Protection"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "10")
+					(page "3")
 				)
 			)
 		)
