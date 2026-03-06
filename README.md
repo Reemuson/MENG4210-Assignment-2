@@ -5,8 +5,8 @@
 <h1 align="center">INPUT PROTECTION</h1>
 
 <p align="center" width="100%">
-  <a href="https://github.com/Reemuson/MENG4210-Assignment-1/actions/workflows/ci.yaml">
-    <img alt="CI Badge" src="https://github.com/Reemuson/MENG4210-Assignment-1/actions/workflows/ci.yaml/badge.svg?branch=">
+  <a href="https://github.com/Reemuson/MENG4210-Assignment-2/actions/workflows/ci.yaml">
+    <img alt="CI Badge" src="https://github.com/Reemuson/MENG4210-Assignment-2/actions/workflows/ci.yaml/badge.svg?branch=">
   </a>
 </p>
 
@@ -28,7 +28,7 @@
 
 | Parameter | Value | 
 | --- | --- |
-| Dimensions | 80.0 × 50.0 mm |
+| Dimensions | 50.0 × 50.0 mm |
 
 ***
 
