@@ -1,23 +1,35 @@
-Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufacturer,MPN,Supplier,Supplier Part Number,Notes
-1,4,C401 C503 C504 C505,10n,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CAP CER 0.01UF 50V X7R 0603,TPK,C1608X7R1H103KT,,,
-2,3,C403 C501 C502,100n,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CAP CER 0.1UF 16V X7R 0603,TPK,C1608X7R1C104KT,,,
-3,2,C402 C506,1u,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CAP CER 1UF 50V X7R 0603,TPK,C1608X5R0J105KT,,,
-4,1,D501,1N4148WS,https://diotec.com/request/datasheet/1n4148ws.pdf,D_SOD-323,DIODE STANDARD 75V 150MA SOD323F,Diotec Semiconductor,1N4148WS,,,"Fast switching diode, low leakage, used for diode-AND logic gating of control signals"
-5,2,D201 D601,D3Z10BF-7,https://www.diodes.com/assets/Datasheets/D3ZxVxBF.pdf,D_SOD-323_HandSoldering,DIODE ZENER 10V 400MW SOD323F,Diodes Incorporated,D3Z10BF-7,,,"VZ = 10 V, suitable for input over-voltage clamping"
-6,1,D502,LED,https://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,LED RED CLEAR SMD,Lite-On Inc.,LTST-C170KRKT,,,Any low power red 0805 LED
-7,2,J102 J103,EBWA-02-B,https://app.adam-tech.com/products/download/data_sheet/204240/ebwa-xx-b-data-sheet.pdf,TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal,EURO BLOCK 2P,Adam Tech,EBWA-02-B,,,
-8,2,J101 J104,KLDX-0202-B,https://www.kycon.com/Catalog_PDF/KLDX_0202.pdf,BarrelJack_Kycon_KLDX-0202-xC_Horizontal,CONN PWR JACK 2.5X5.5MM SOLDER,Kycon Inc,KLDX-0202-B,,,
-9,1,Q601,BC846,https://assets.nexperia.com/documents/data-sheet/BC846X-Q_SER.pdf,SOT-23,TRANS NPN 65V 0.1A TO-236AB,Nexperia USA Inc.,BC846,,,"VCEO > 65 V for 50 V rail, IC small, used as gate pull-down switch"
-10,2,Q201 Q602,MCU18P10Y-TP,https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf,DPAK_MCC,MOSFET P-CH 100V 18A DPAK,MCC (Micro Commercial Components),MCU18P10Y-TP,,,"VDS > 100 V, ID > 2 A, P-channel device suitable for high-side switching"
-11,1,R301,100m,https://www.ohmite.com/assets/images/res-kdv.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 0.1 OHM 1% 1/2W 1206,Ohmite,KDV12FR100ET,,,"Current sense shunt, sets OCP trip (~1 A). Ideally should be <100m"
-12,3,R501 R502 R505,1k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 1K OHM 1% 1/4W 1206,Analog Technologies,,,,
-13,2,R403 R510,3.32k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 3.32K OHM 1% 1/4W 1206,Analog Technologies,,,,
-14,5,R303 R305 R508 R509 R601,10k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 10K OHM 1% 1/4W 1206,Analog Technologies,,,,
-15,1,R511,22.1k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 22.1K OHM 1% 1/4W 1206,Analog Technologies,,,,
-16,1,R302,39.2k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 39.2K OHM 1% 1/4W 1206,Analog Technologies,,,,
-17,1,R304,56.2k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 56.2K OHM 1% 1/4W 1206,Analog Technologies,,,,
-18,7,R201 R202 R401 R402 R506 R602 R603,100k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 100K OHM 1% 1/4W 1206,Analog Technologies,,,,
-19,4,R503 R504 R507 R604,1M,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RES 1M OHM 1% 1/4W 1206,Analog Technologies,,,,
-20,1,U503,INA169NA/3K,http://www.ti.com/lit/ds/symlink/ina169.pdf,SOT-23-5,IC CURRENT MONITOR 0.5% SOT23-5,Texas Instruments,INA169NA/3K,,,Transconductance of 1mA/V
-21,2,U501 U502,LM393,http://www.ti.com/lit/ds/symlink/lm393.pdf,SOIC-8_3.9x4.9mm_P1.27mm,IC COMPARATOR 2 GEN PUR 8SOIC,Texas Instruments,LM393ADT,,,"Open-collector output required, >5V tolerant inputs."
-22,1,U401,LM4040N-5.0,http://www.ti.com/lit/ds/symlink/lm4040-n.pdf,SOT-23,IC VREF SHUNT 0.5% SOT23-3,Texas Instruments,LM4040CIM3-5.0/NOPB,,,"VREF = 5.0 V, low temperature coefficient, suitable for precision threshold VREF"
+Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufacturer,MPN,Supplier,SPN,Notes
+1,4,C303 C401 C402 C501,10n,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf,C_0603_1608Metric,CAP CER 0.01UF 50V X7R 0603,TPK,C1608X7R1H103KT,,,
+2,5,C301 C403 C505 C601 C701,100n,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf,C_0603_1608Metric,CAP CER 0.1UF 16V X7R 0603,TPK,C1608X7R1C104KT,,,
+3,3,C302 C502 C504,1u,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf,C_0603_1608Metric,CAP CER 1UF 6.3V X7R 0603,TPK,C1608X5R0J105KT,,,
+4,1,C503,4.7u,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/931/C_Series_GeneralAppl_B11.pdf,C_0603_1608Metric,CAP CER 4.7UF 6.3V X5R 0603,TPK,C1608X5R0J475MT,,,
+5,2,D501 D502,1N4148WS,https://diotec.com/request/datasheet/1n4148ws.pdf,D_SOD-323,DIODE STANDARD 75V 150MA SOD323F,Diotec Semiconductor,1N4148WS,,,Fast switching diode
+6,2,D201 D701,D3Z10BF-7,https://www.diodes.com/assets/Datasheets/D3ZxVxBF.pdf,D_SOD-323,DIODE ZENER 10V 400MW SOD323F,Diodes Incorporated,D3Z10BF-7,,,"VZ = 10 V, suitable for input over-voltage clamping"
+7,1,D801,LED,https://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf,LED_0805_2012Metric,LED RED CLEAR SMD,Lite-On Inc.,LTST-C170KRKT,DigiKey,160-1415-1-ND,Any low power red 0805 LED
+8,1,D802,LED,https://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf,LED_0805_2012Metric,LED RED CLEAR SMD,Lite-On Inc.,LTST-C170KGKT,DigiKey,160-1414-1-ND,Any low power green 0805 LED
+9,1,D301,MM3Z5V6,https://www.diodes.com/assets/Datasheets/D3ZxVxBF.pdf,D_SOD-323,DIODE ZENER 5V6 400MW SOD323F,Diotec,MM3Z5V6,,,"VZ = 5V6, for VCC reference"
+10,2,J102 J103,EBWA-02-B,https://app.adam-tech.com/products/download/data_sheet/204240/ebwa-xx-b-data-sheet.pdf,TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal,EURO BLOCK 2P,Adam Tech,EBWA-02-B,,,
+11,2,J101 J104,KLDX-0202-B,https://www.kycon.com/Catalog_PDF/KLDX_0202.pdf,BarrelJack_Kycon_KLDX-0202-xC_Horizontal,CONN PWR JACK 2.5X5.5MM SOLDER,Kycon Inc,KLDX-0202-B,,,
+12,3,Q301 Q701 Q802,BC846,https://assets.nexperia.com/documents/data-sheet/BC846X-Q_SER.pdf,SOT-23,TRANS NPN 65V 0.1A TO-236AB,Nexperia USA Inc.,BC846,,,"VCEO > 65 V for 50 V rail, IC small, used as gate pull-down switch"
+13,2,Q501 Q801,BC856,https://www.onsemi.com/pub/Collateral/BC860-D.pdf,SOT-23,"0.1A Ic, 65V Vce, PNP Transistor, SOT-23",,,,,
+14,2,Q201 Q702,MCU18P10Y-TP,https://www.mccsemi.com/pdf/Products/MCU18P10Y(DPAK).pdf,DPAK_MCC,MOSFET P-CH 100V 18A DPAK,MCC (Micro Commercial Components),MCU18P10Y-TP,,,"VDS > 100 V, ID > 2 A, P-channel device suitable for high-side switching"
+15,1,R701,20m,https://www.vishay.com/docs/30100/wsl.pdf,R_2512_6332Metric,RES 0.02 OHM 1% 1W 2512,Vishay Dale,WSL2512R0200FEA,DigiKey,WSLG-.02CT-ND,"Current sense shunt, sets OCP trip (~1 A). Ideally should be <100m"
+16,4,R403 R404 R504 R510,1k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 1K OHM 1% 1/10W 0603,Analog Technologies,,,,
+17,2,R801 R802,2.49k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 2.49K OHM 1% 1/10W 0603,Analog Technologies,,,,
+18,5,R405 R506 R507 R603 R702,10k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 10K OHM 1% 1/10W 0603,Analog Technologies,,,,
+19,1,R301,12.1k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_1206_3216Metric,RES 12.1K OHM 1% 1/4W 1206,Analog Technologies,,,,
+20,1,R705,15k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 15K OHM 1% 1/10W 0603,Analog Technologies,,,,
+21,1,R601,18.2k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 18.2K OHM 1% 1/10W 0603,Analog Technologies,,,,
+22,1,R401,22.1k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 22.1K OHM 1% 1/10W 0603,Analog Technologies,,,,
+23,1,R503,30.1k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 30.1K OHM 1% 1/10W 0603,Analog Technologies,,,,
+24,2,R303 R602,33.2k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 33.2K OHM 1% 1/10W 0603,Analog Technologies,,,,
+25,2,R305 R505,49.9k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 49.9K OHM 1% 1/10W 0603,Analog Technologies,,,,
+26,8,R201 R202 R302 R406 R509 R511 R703 R704,100k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 100K OHM 1% 1/10W 0603,Analog Technologies,,,,
+27,2,R306 R502,121k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 121K OHM 1% 1/10W 0603,Analog Technologies,,,,
+28,1,R402,200k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 200K OHM 1% 1/10W 0603,Analog Technologies,,,,
+29,1,R304,332k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 332K OHM 1% 1/10W 0603,Analog Technologies,,,,
+30,1,R501,357k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 357K OHM 1% 1/10W 0603,Analog Technologies,,,,
+31,1,R508,432k,https://www.analogtechnologies.com/document/New_Resistor_Kits.pdf,R_0603_1608Metric,RES 432K OHM 1% 1/10W 0603,Analog Technologies,,,,
+32,1,U701,INA169NA/3K,http://www.ti.com/lit/ds/symlink/ina169.pdf,SOT-23-5,IC CURRENT MONITOR 0.5% SOT23-5,Texas Instruments,INA169NA/3K,,,Transconductance of 1mA/V
+33,3,U401 U501 U601,LM393,http://www.ti.com/lit/ds/symlink/lm393.pdf,SOIC-8_3.9x4.9mm_P1.27mm,"Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8",,,,,
+34,1,U301,LM4040N-5.0,http://www.ti.com/lit/ds/symlink/lm4040-n.pdf,SOT-23,IC VREF SHUNT 0.5% SOT23-3,Texas Instruments,LM4040CIM3-5.0/NOPB,,,"VREF = 5.0 V, low temperature coefficient, suitable for precision threshold VREF"
